@@ -11,6 +11,7 @@ nav {
   width: 100%;
   background-color: #a57f54;
   z-index: 999;
+  height: 100px;
 }
 .highlight-book {
   margin-top: 50px;
@@ -64,6 +65,7 @@ button {
 .content {
   position: relative;
   z-index: 100;
+  margin-bottom: 150px;
 }
 .title {
   color: #fff;
@@ -82,3 +84,60 @@ button {
   display: inline-flex;
   justify-content: center;
 }
+.card-img-top {
+  width: min-content;
+}
+.box-profile {
+  background-color: #a57f54;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 500px;
+}
+h5 {
+  color: #fff;
+}
+a {
+  text-decoration: none !important;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+input[type="submit"] {
+  width: fit-content;
+  padding: 10px;
+  background-color: #e3cfac;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: darkblue;
+}
+.logout-edit {
+  margin-top: 50px !important;
+}
+.bt-pf {
+  background-color: #a57f54;
+  padding: 10px;
+  border-radius: 5px;
+}
+.bt-pf a {
+  color: #fff;
+}
+
